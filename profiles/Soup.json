@@ -1,0 +1,73 @@
+{
+  "id": "rIWllqHx1W",
+  "label": "Soup",
+  "type": "pro",
+  "description": "Somewhere between coffee and espresso, americano and aeropress.",
+  "temperature": 87,
+  "favorite": true,
+  "selected": false,
+  "utility": false,
+  "phases": [
+    {
+      "name": "Fill",
+      "phase": "preinfusion",
+      "valve": 1,
+      "duration": 30,
+      "temperature": 0,
+      "transition": {
+        "type": "ease-in-out",
+        "duration": 5,
+        "adaptive": true
+      },
+      "pump": {
+        "target": "flow",
+        "pressure": 1,
+        "flow": 0.5
+      },
+      "targets": [
+        {
+          "type": "volumetric",
+          "operator": "gte",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Bloom",
+      "phase": "preinfusion",
+      "valve": 1,
+      "duration": 60,
+      "temperature": 0,
+      "transition": {
+        "type": "instant",
+        "duration": 0,
+        "adaptive": true
+      },
+      "pump": 0
+    },
+    {
+      "name": "Yeet",
+      "phase": "brew",
+      "valve": 1,
+      "duration": 300,
+      "temperature": 0,
+      "transition": {
+        "type": "ease-in-out",
+        "duration": 10,
+        "adaptive": true
+      },
+      "pump": {
+        "target": "flow",
+        "pressure": 2,
+        "flow": 6
+      },
+      "targets": [
+        {
+          "type": "volumetric",
+          "operator": "gte",
+          "value": 120
+        }
+      ]
+    }
+  ]
+}
