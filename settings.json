@@ -14,7 +14,7 @@
   "fullTankDistance": 18,
   "grindDelay": 1000,
   "haIP": "",
-  "haPassword": "<REDACTED>",
+  "haPassword": "",
   "haPort": 1883,
   "haTopic": "homeassistant",
   "haUser": "",
