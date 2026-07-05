@@ -1,7 +1,7 @@
-# GaggiMate data backup
+# GaggiMate data backup — GAGGIMATE#0614
 
 Shot history, brew profiles, and settings exported from my GaggiMate
-(Gaggia espresso machine controller, https://gaggimate.eu).
+(Gaggia espresso machine controller, https://gaggimate.eu), serial GAGGIMATE#0614.
 
 ## Contents
 
