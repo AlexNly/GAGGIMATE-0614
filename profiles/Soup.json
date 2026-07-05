@@ -1,73 +1,73 @@
 {
+  "description": "Somewhere between coffee and espresso, americano and aeropress.",
+  "favorite": true,
   "id": "rIWllqHx1W",
   "label": "Soup",
-  "type": "pro",
-  "description": "Somewhere between coffee and espresso, americano and aeropress.",
-  "temperature": 87,
-  "favorite": true,
-  "selected": false,
-  "utility": false,
   "phases": [
     {
+      "duration": 30,
       "name": "Fill",
       "phase": "preinfusion",
-      "valve": 1,
-      "duration": 30,
-      "temperature": 0,
-      "transition": {
-        "type": "ease-in-out",
-        "duration": 5,
-        "adaptive": true
-      },
       "pump": {
-        "target": "flow",
+        "flow": 0.5,
         "pressure": 1,
-        "flow": 0.5
+        "target": "flow"
       },
       "targets": [
         {
-          "type": "volumetric",
           "operator": "gte",
+          "type": "volumetric",
           "value": 2
         }
-      ]
+      ],
+      "temperature": 0,
+      "transition": {
+        "adaptive": true,
+        "duration": 5,
+        "type": "ease-in-out"
+      },
+      "valve": 1
     },
     {
+      "duration": 60,
       "name": "Bloom",
       "phase": "preinfusion",
-      "valve": 1,
-      "duration": 60,
+      "pump": 0,
       "temperature": 0,
       "transition": {
-        "type": "instant",
+        "adaptive": true,
         "duration": 0,
-        "adaptive": true
+        "type": "instant"
       },
-      "pump": 0
+      "valve": 1
     },
     {
+      "duration": 300,
       "name": "Yeet",
       "phase": "brew",
-      "valve": 1,
-      "duration": 300,
-      "temperature": 0,
-      "transition": {
-        "type": "ease-in-out",
-        "duration": 10,
-        "adaptive": true
-      },
       "pump": {
-        "target": "flow",
+        "flow": 6,
         "pressure": 2,
-        "flow": 6
+        "target": "flow"
       },
       "targets": [
         {
-          "type": "volumetric",
           "operator": "gte",
+          "type": "volumetric",
           "value": 120
         }
-      ]
+      ],
+      "temperature": 0,
+      "transition": {
+        "adaptive": true,
+        "duration": 10,
+        "type": "ease-in-out"
+      },
+      "valve": 1
     }
-  ]
+  ],
+  "selected": false,
+  "temperature": 87,
+  "type": "pro",
+  "utility": false
 }

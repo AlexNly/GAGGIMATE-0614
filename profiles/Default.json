@@ -1,32 +1,32 @@
 {
+  "description": "Default profile",
+  "favorite": true,
   "id": "HHdZlHVfiS",
   "label": "Default",
-  "type": "standard",
-  "description": "Default profile",
-  "temperature": 93,
-  "favorite": true,
-  "selected": false,
-  "utility": false,
   "phases": [
     {
+      "duration": 28,
       "name": "Brew",
       "phase": "brew",
-      "valve": 1,
-      "duration": 28,
-      "temperature": 0,
-      "transition": {
-        "type": "instant",
-        "duration": 0,
-        "adaptive": false
-      },
       "pump": 100,
       "targets": [
         {
-          "type": "volumetric",
           "operator": "gte",
+          "type": "volumetric",
           "value": 36
         }
-      ]
+      ],
+      "temperature": 0,
+      "transition": {
+        "adaptive": false,
+        "duration": 0,
+        "type": "instant"
+      },
+      "valve": 1
     }
-  ]
+  ],
+  "selected": false,
+  "temperature": 93,
+  "type": "standard",
+  "utility": false
 }

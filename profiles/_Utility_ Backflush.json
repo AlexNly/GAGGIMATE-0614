@@ -1,129 +1,129 @@
 {
+  "description": "",
+  "favorite": true,
   "id": "ZvTRD4GACN",
   "label": "[Utility] Backflush",
-  "type": "standard",
-  "description": "",
-  "temperature": 93,
-  "favorite": true,
-  "selected": false,
-  "utility": true,
   "phases": [
     {
+      "duration": 10,
       "name": "Pressurize",
       "phase": "brew",
-      "valve": 1,
-      "duration": 10,
+      "pump": 100,
       "temperature": 0,
       "transition": {
-        "type": "instant",
+        "adaptive": false,
         "duration": 0,
-        "adaptive": false
+        "type": "instant"
       },
-      "pump": 100
+      "valve": 1
     },
     {
+      "duration": 10,
       "name": "Depressurize",
       "phase": "brew",
-      "valve": 0,
-      "duration": 10,
+      "pump": 0,
       "temperature": 0,
       "transition": {
-        "type": "instant",
+        "adaptive": false,
         "duration": 0,
-        "adaptive": false
+        "type": "instant"
       },
-      "pump": 0
+      "valve": 0
     },
     {
+      "duration": 10,
       "name": "Pressurize",
       "phase": "brew",
-      "valve": 1,
-      "duration": 10,
+      "pump": 100,
       "temperature": 0,
       "transition": {
-        "type": "instant",
+        "adaptive": false,
         "duration": 0,
-        "adaptive": false
+        "type": "instant"
       },
-      "pump": 100
+      "valve": 1
     },
     {
+      "duration": 10,
       "name": "Depressurize",
       "phase": "brew",
-      "valve": 0,
-      "duration": 10,
+      "pump": 0,
       "temperature": 0,
       "transition": {
-        "type": "instant",
+        "adaptive": false,
         "duration": 0,
-        "adaptive": false
+        "type": "instant"
       },
-      "pump": 0
+      "valve": 0
     },
     {
+      "duration": 10,
       "name": "Pressurize",
       "phase": "brew",
-      "valve": 1,
-      "duration": 10,
+      "pump": 100,
       "temperature": 0,
       "transition": {
-        "type": "instant",
+        "adaptive": false,
         "duration": 0,
-        "adaptive": false
+        "type": "instant"
       },
-      "pump": 100
+      "valve": 1
     },
     {
+      "duration": 10,
       "name": "Depressurize",
       "phase": "brew",
-      "valve": 0,
-      "duration": 10,
+      "pump": 0,
       "temperature": 0,
       "transition": {
-        "type": "instant",
+        "adaptive": false,
         "duration": 0,
-        "adaptive": false
+        "type": "instant"
       },
-      "pump": 0
+      "valve": 0
     },
     {
+      "duration": 10,
       "name": "Pressurize",
       "phase": "brew",
-      "valve": 1,
-      "duration": 10,
+      "pump": 100,
       "temperature": 0,
       "transition": {
-        "type": "instant",
+        "adaptive": false,
         "duration": 0,
-        "adaptive": false
+        "type": "instant"
       },
-      "pump": 100
+      "valve": 1
     },
     {
+      "duration": 10,
       "name": "Depressurize",
       "phase": "brew",
-      "valve": 0,
-      "duration": 10,
+      "pump": 0,
       "temperature": 0,
       "transition": {
-        "type": "instant",
+        "adaptive": false,
         "duration": 0,
-        "adaptive": false
+        "type": "instant"
       },
-      "pump": 0
+      "valve": 0
     },
     {
+      "duration": 10,
       "name": "Pressurize",
       "phase": "brew",
-      "valve": 1,
-      "duration": 10,
+      "pump": 100,
       "temperature": 0,
       "transition": {
-        "type": "instant",
+        "adaptive": false,
         "duration": 0,
-        "adaptive": false
+        "type": "instant"
       },
-      "pump": 100
+      "valve": 1
     }
-  ]
+  ],
+  "selected": false,
+  "temperature": 93,
+  "type": "standard",
+  "utility": true
 }
