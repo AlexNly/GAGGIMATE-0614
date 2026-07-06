@@ -14,7 +14,7 @@ or the machine itself.
 
 - `shots/` — every shot as a binary `.slog` file (512-byte header, magic
   `SHOT`, 26-byte samples at 250 ms; format spec in
-  [`MATEbot/blob/main/src/matebot/slog.py`](https://github.com/AlexNly/MATEbot/blob/main/src/MATEbot/blob/main/src/matebot/slog.py))
+  [`matebot/slog.py`](https://github.com/AlexNly/MATEbot/blob/main/src/matebot/slog.py))
   plus matching `.json` shot notes.
 - `profiles/` — all brew profiles as JSON, including the
   [Automatic Pro](https://modsmthng.github.io/Automatic-Pro/v3/) v3 family.
