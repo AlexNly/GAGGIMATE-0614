@@ -24,6 +24,7 @@
       "transition": {
         "adaptive": true,
         "duration": 5,
+        "target": "time",
         "type": "ease-in-out"
       },
       "valve": 1
@@ -37,6 +38,7 @@
       "transition": {
         "adaptive": true,
         "duration": 0,
+        "target": "time",
         "type": "instant"
       },
       "valve": 1
@@ -61,6 +63,7 @@
       "transition": {
         "adaptive": true,
         "duration": 10,
+        "target": "time",
         "type": "ease-in-out"
       },
       "valve": 1

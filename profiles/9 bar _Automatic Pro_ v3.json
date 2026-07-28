@@ -20,6 +20,7 @@
       "transition": {
         "adaptive": true,
         "duration": 0,
+        "target": "time",
         "type": "instant"
       },
       "valve": 1
@@ -44,6 +45,7 @@
       "transition": {
         "adaptive": true,
         "duration": 0,
+        "target": "time",
         "type": "instant"
       },
       "valve": 1
@@ -78,6 +80,7 @@
       "transition": {
         "adaptive": true,
         "duration": 0,
+        "target": "time",
         "type": "instant"
       },
       "valve": 1
@@ -107,6 +110,7 @@
       "transition": {
         "adaptive": false,
         "duration": 0,
+        "target": "time",
         "type": "instant"
       },
       "valve": 1
@@ -136,6 +140,7 @@
       "transition": {
         "adaptive": true,
         "duration": 0,
+        "target": "time",
         "type": "instant"
       },
       "valve": 1
@@ -170,6 +175,7 @@
       "transition": {
         "adaptive": false,
         "duration": 2,
+        "target": "time",
         "type": "ease-out"
       },
       "valve": 1
@@ -194,6 +200,7 @@
       "transition": {
         "adaptive": true,
         "duration": 0,
+        "target": "time",
         "type": "instant"
       },
       "valve": 1
